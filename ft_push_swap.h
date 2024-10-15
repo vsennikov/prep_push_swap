@@ -6,7 +6,7 @@
 /*   By: vsenniko <vsenniko@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 12:30:07 by vsenniko          #+#    #+#             */
-/*   Updated: 2024/10/14 16:51:12 by vsenniko         ###   ########.fr       */
+/*   Updated: 2024/10/15 14:51:28 by vsenniko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ int		ft_putnbr_base(unsigned int nbr, char *base);
 int		ft_putnbr_add(unsigned long add, char *base);
 
 //push_swap declaration
-void	check_input_and_transfer(int argc, char *argv[]);
+int		*check_input_and_transfer(int argc, char *argv[]);
 void	exit_error(void);
-int		ft_atoi(const char *str);
+long	ft_atoi(const char *str);
 
 #endif

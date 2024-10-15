@@ -6,7 +6,7 @@
 /*   By: vsenniko <vsenniko@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 12:29:28 by vsenniko          #+#    #+#             */
-/*   Updated: 2024/10/14 16:50:41 by vsenniko         ###   ########.fr       */
+/*   Updated: 2024/10/15 14:56:23 by vsenniko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@
 
 int	main(int argc, char *argv[])
 {
-	check_input_and_transfer(argc, argv);
+	int	*arr;
+	int	*arr_copy;
+
+	arr = check_input_and_transfer(argc, argv);
+	arr_copy = arr;
+
+
 	return (0);
 }

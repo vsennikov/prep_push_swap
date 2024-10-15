@@ -1,6 +1,6 @@
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
-SRCS = ft_printf.c ft_putnbr_base.c push_swap.c check_input.c
+SRCS = ft_printf.c ft_putnbr_base.c push_swap.c check_input.c ft_atoi.c
 
 OBJS = $(SRCS:.c=.o)
 

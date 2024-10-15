@@ -6,9 +6,11 @@
 /*   By: vsenniko <vsenniko@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 13:08:36 by vsenniko          #+#    #+#             */
-/*   Updated: 2024/10/14 13:08:45 by vsenniko         ###   ########.fr       */
+/*   Updated: 2024/10/15 14:46:58 by vsenniko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_push_swap.h"
 
 static int	ft_isspace(char ch)
 {
@@ -17,11 +19,11 @@ static int	ft_isspace(char ch)
 	return (0);
 }
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
-	int	i;
-	int	minus;
-	int	result;
+	int		i;
+	int		minus;
+	long	result;
 
 	i = 0;
 	minus = 0;
